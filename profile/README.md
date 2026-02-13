@@ -27,7 +27,8 @@ Voice should be a first-class interface in every application — not a luxury re
 ### Get Started
 
 ```bash
-pip install macaw-openvoice[server,grpc,faster-whisper]
+# Fast and Easy
+pip install macaw-openvoice[faster-whisper]
 macaw pull faster-whisper-tiny
 macaw serve
 ```
@@ -36,7 +37,7 @@ That's it. You now have a voice API running locally with OpenAI SDK compatibilit
 
 ### Links
 
-- [Documentation](https://macaw-voice.github.io/macaw-openvoice) — guides, API reference, architecture
+- [Documentation](https://docs.usemacaw.io) — guides, API reference, architecture
 - [Contributing](https://github.com/usemacaw/macaw-openvoice/blob/main/CONTRIBUTING.md) — we welcome contributions
 - [Releases](https://github.com/usemacaw/macaw-openvoice/releases) — changelog and downloads
 
